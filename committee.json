@@ -5,17 +5,17 @@
             "is_honest": true,
             "stake": 1,
             "consensus": {
-                "consensus_to_consensus": "127.0.0.1:3000"
+                "consensus_to_consensus": "172.16.3.1:3000"
             },
             "primary": {
-                "primary_to_primary": "127.0.0.1:3001",
-                "worker_to_primary": "127.0.0.1:3002"
+                "primary_to_primary": "172.16.3.1:3001",
+                "worker_to_primary": "172.16.3.1:3002"
             },
             "workers": {
                 "0": {
-                    "primary_to_worker": "127.0.0.1:3003",
-                    "transactions": "127.0.0.1:3004",
-                    "worker_to_worker": "127.0.0.1:3005"
+                    "primary_to_worker": "172.16.3.1:3003",
+                    "transactions": "172.16.3.1:3004",
+                    "worker_to_worker": "172.16.3.1:3005"
                 }
             }
         },
@@ -24,17 +24,17 @@
             "is_honest": true,
             "stake": 1,
             "consensus": {
-                "consensus_to_consensus": "127.0.0.1:3006"
+                "consensus_to_consensus": "172.16.1.1:3000"
             },
             "primary": {
-                "primary_to_primary": "127.0.0.1:3007",
-                "worker_to_primary": "127.0.0.1:3008"
+                "primary_to_primary": "172.16.1.1:3001",
+                "worker_to_primary": "172.16.1.1:3002"
             },
             "workers": {
                 "0": {
-                    "primary_to_worker": "127.0.0.1:3009",
-                    "transactions": "127.0.0.1:3010",
-                    "worker_to_worker": "127.0.0.1:3011"
+                    "primary_to_worker": "172.16.1.1:3003",
+                    "transactions": "172.16.1.1:3004",
+                    "worker_to_worker": "172.16.1.1:3005"
                 }
             }
         },
@@ -43,36 +43,17 @@
             "is_honest": true,
             "stake": 1,
             "consensus": {
-                "consensus_to_consensus": "127.0.0.1:3012"
+                "consensus_to_consensus": "172.16.6.1:3000"
             },
             "primary": {
-                "primary_to_primary": "127.0.0.1:3013",
-                "worker_to_primary": "127.0.0.1:3014"
+                "primary_to_primary": "172.16.6.1:3001",
+                "worker_to_primary": "172.16.6.1:3002"
             },
             "workers": {
                 "0": {
-                    "primary_to_worker": "127.0.0.1:3015",
-                    "transactions": "127.0.0.1:3016",
-                    "worker_to_worker": "127.0.0.1:3017"
-                }
-            }
-        },
-        "Rn82rNCVHTOzk3rGhsoXIQ9ykVs5QwUeLSmeH/TDqLw=": {
-            "node_id": 3,
-            "is_honest": true,
-            "stake": 1,
-            "consensus": {
-                "consensus_to_consensus": "127.0.0.1:3018"
-            },
-            "primary": {
-                "primary_to_primary": "127.0.0.1:3019",
-                "worker_to_primary": "127.0.0.1:3020"
-            },
-            "workers": {
-                "0": {
-                    "primary_to_worker": "127.0.0.1:3021",
-                    "transactions": "127.0.0.1:3022",
-                    "worker_to_worker": "127.0.0.1:3023"
+                    "primary_to_worker": "172.16.6.1:3003",
+                    "transactions": "172.16.6.1:3004",
+                    "worker_to_worker": "172.16.6.1:3005"
                 }
             }
         }
