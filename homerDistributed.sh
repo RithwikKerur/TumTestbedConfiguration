@@ -9,7 +9,7 @@ tmux new -d -s client "./benchmark_client 172.16.1.1:3004 --size 512 --burst 50 
 tmux new -d -s worker "./node -vvv run --keys /root/TumTestbedConfiguration/node-1.json --committee /root/TumTestbedConfiguration/committee.json --store ./db-1-0 --parameters /root/TumTestbedConfiguration/parameters.json worker --id 0 2>&1 | tee worker.log"
 tmux ls
 pos_sync
-sleep 40
+sleep 60
 echo "finished running primary"
 ls
 tmux kill-session -t primary
